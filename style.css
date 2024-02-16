@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted black;
+}
+
+h1 {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.btn-container {
+    border: 1px dashed black;
+}
+
+.start,
+.stop {
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-inline: 10px;
+    margin-block: 15px;
+    padding: 5px;
+    background-color: khaki;
+}
+
+.start:hover,
+.stop:hover {
+    background-color: darkkhaki;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log,
+.state,
+input,
+.clr {
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 25px;
+    margin-inline: 10px;
+    margin-block: 15px;
+    padding: 5px;
+    width: 350px;
+    height: 40px;
+    background-color: orange;
+}
+
+.state {
+    background-color: green;
+    color: white;
+}
+
+
+
+.show-output {
+    border: 2px dashed black;
+    padding: 10px;
+    margin: 10px;
+}
+
+input {
+    background-color: white;
+}
+
+textarea {
+    display: block;
+    font-size: 25px;
+}
+
+.clr {
+    background-color: red;
+    width: max-content;
+}

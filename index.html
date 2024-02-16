@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyLogger</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Key Logger</h1>
+        <div class="btn-container">
+            <button class="start">Start Logging Key press</button>
+            <button class="stop">Stop Logging Key press</button>
+        </div>
+        <div class="output">
+            <div class="log"></div>
+            <div class="state"></div>
+        </div>
+        <div class="show-output">
+            <input type="text" placeholder="Type Here">
+            <button class="clr" onclick="clearInput()">Clear</button>
+            <h3> : Preview : </h3>
+            <textarea name="para" class="para" cols="35" rows="5"></textarea>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="keylogger.js"></script>
+</body>
+
+</html>
